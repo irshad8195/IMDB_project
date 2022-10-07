@@ -62,7 +62,7 @@ async function handleMoiveTitle(result) {
       // call info.html page
       function openPage() {
         localStorage.setItem("Movies Information", JSON.stringify(data));
-        parent.location = "./html/info.html";
+        parent.location = "info.html";
       }
 
       // add click event on info icon
