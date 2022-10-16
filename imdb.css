@@ -1,6 +1,6 @@
 /* nav bar  */
 #searchBar {
-    width: 50vw;
+    width: 60vw;
   }
   .navbar{
     background-color: black;
@@ -21,7 +21,7 @@
   .display_fav_container {
     display: flex;
     justify-content: center;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
     flex-direction: column;
     align-items: center;
   }

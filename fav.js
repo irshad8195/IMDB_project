@@ -15,7 +15,7 @@ function handleRemoveMovie(index) {
 function openPage(index) {
   let element = favouiteMoviesList[index];
   localStorage.setItem("Movies Information", JSON.stringify(element));
-  parent.location = "./info.html";
+  parent.location = "info.html";
 }
 
 // get data from local storage and add into html
@@ -52,6 +52,8 @@ function handleFavMovies() {
 
 //calling function
 handleFavMovies();
+
+document.body.style.backgroundColor="LightGoldenrodYellow";
 
 
 

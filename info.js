@@ -31,3 +31,4 @@ function handleInfo() {
 
 //call function to display movie information
 handleInfo();
+document.body.style.backgroundColor="LightGoldenrodYellow";

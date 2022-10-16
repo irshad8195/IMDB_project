@@ -28,7 +28,7 @@ function handleFavBtn(e, data) {
 //fetch data from the api
 async function handleMoiveTitle(result) {
   searchDownbar.innerHTML = "";
-  if (result.length > 2) {
+ if (result.length > 2) {
     const res = await fetch(api_url + `&t=${result}`);
     let data = await res.json();
     if (data.Response === "False") {
@@ -64,7 +64,7 @@ async function handleMoiveTitle(result) {
         localStorage.setItem("Movies Information", JSON.stringify(data));
         parent.location = "info.html";
       }
-
+      
       // add click event on info icon
       document.getElementById("info").addEventListener("click", openPage);
     }
@@ -73,3 +73,5 @@ async function handleMoiveTitle(result) {
 
 //add input event on search bar
 searchBar.addEventListener("input", inputHandle);
+
+document.body.style.backgroundColor="LightGoldenrodYellow";
